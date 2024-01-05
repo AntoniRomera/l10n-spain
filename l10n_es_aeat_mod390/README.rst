@@ -121,6 +121,10 @@ Contributors
 
   * Enric Tobella
 
+* `Moduon <https://www.moduon.team>`_:
+
+  * Emilio Pascual
+
 Maintainers
 ~~~~~~~~~~~
 
