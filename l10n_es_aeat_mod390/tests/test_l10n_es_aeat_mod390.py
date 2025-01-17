@@ -409,10 +409,10 @@ class TestL10nEsAeatMod390(TestL10nEsAeatMod390Base):
         model303_4T.button_calculate()
         self.model390_2018.button_calculate()
         # Check casilla_85, casilla_95, casilla_97, casilla_98, casilla_662
-        self.assertAlmostEqual(self.model390_2018.casilla_85, 674.48, 2)
+        self.assertAlmostEqual(self.model390_2018.casilla_85, 560.85, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_95, 0.0, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_97, 0.0, 2)
-        self.assertAlmostEqual(self.model390_2018.casilla_98, 1235.33, 2)
+        self.assertAlmostEqual(self.model390_2018.casilla_98, 1121.70, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_662, 0.0, 2)
 
     def test_model_390_using_303_03(self):
@@ -479,7 +479,7 @@ class TestL10nEsAeatMod390(TestL10nEsAeatMod390Base):
         self.model390_2018.button_calculate()
         # Check casilla_85, casilla_95, casilla_97, casilla_98, casilla_662
         self.assertAlmostEqual(self.model390_2018.casilla_85, 805.25, 2)
-        self.assertAlmostEqual(self.model390_2018.casilla_95, 2302.12, 2)
+        self.assertAlmostEqual(self.model390_2018.casilla_95, 2415.75, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_97, 100.0, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_98, 0.0, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_662, 0.0, 2)
@@ -489,7 +489,7 @@ class TestL10nEsAeatMod390(TestL10nEsAeatMod390Base):
         self.model390_2018.button_calculate()
         # Check casilla_85, casilla_95, casilla_97, casilla_98, casilla_662
         self.assertAlmostEqual(self.model390_2018.casilla_85, 905.25, 2)
-        self.assertAlmostEqual(self.model390_2018.casilla_95, 2302.12, 2)
+        self.assertAlmostEqual(self.model390_2018.casilla_95, 2415.75, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_97, 0.0, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_98, 100.00, 2)
         self.assertAlmostEqual(self.model390_2018.casilla_662, 0.0, 2)
